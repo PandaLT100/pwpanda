@@ -1,0 +1,45 @@
+/*Navigation Bar */
+
+.navigation {
+    background-color: beige;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.nav {
+    padding: 10px;
+}
+
+.nav1 {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 8px;
+}
+
+.nav1:hover {
+    transform: scale(1.05);
+    color: blue;
+    background-color:white;
+}
+
+/*The Learn Buttons | Home Page*/
+
+.learnbutton {
+    background-color: rgb(245, 245, 130);
+    display:grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+}
+
+.lbutton {
+    background-color: white;
+    margin: 5px;
+    border-radius: 30px;
+
+}
+
+.lbutton:hover {
+    transform: scale(1.05);
+    background-color:rgb(255, 238, 238);
+}
