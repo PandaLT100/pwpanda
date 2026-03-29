@@ -1,7 +1,16 @@
+body {
+    background-color:#FCE7C8;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /*Navigation Bar */
 
 .navigation {
-    background-color: beige;
+    background-color:#F0A04B;
     display:flex;
     flex-direction: row;
     justify-content: left;
@@ -18,15 +27,15 @@
 }
 
 .nav1:hover {
-    transform: scale(1.05);
-    color: blue;
+    transform: scale(1.09);
+    color: #4a642d;
     background-color:white;
 }
 
 /*The Learn Buttons | Home Page*/
 
 .learnbutton {
-    background-color: rgb(245, 245, 130);
+    background-color: #FADA7A;
     display:grid;
     grid-template-rows: auto auto auto;
     justify-content: center;
