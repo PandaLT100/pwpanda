@@ -52,3 +52,9 @@ a {
     transform: scale(1.05);
     background-color:rgb(255, 238, 238);
 }
+
+/*Lesson Formatting*/
+
+.lesslist:hover {
+    color: blue;
+}
