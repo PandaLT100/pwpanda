@@ -2,6 +2,16 @@ body {
     background-color:#FCE7C8;
 }
 
+#lessonbody {
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 a {
     text-decoration: none;
     color: black;
