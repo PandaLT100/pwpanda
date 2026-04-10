@@ -1,0 +1,20 @@
+{
+  "name": "pwpanda",
+  "version": "1.0.0",
+  "description": "Programming With Panda",
+  "homepage": "https://github.com/PandaLT100/pwpanda#readme",
+  "bugs": {
+    "url": "https://github.com/PandaLT100/pwpanda/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaLT100/pwpanda.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

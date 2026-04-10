@@ -65,6 +65,17 @@ a {
     background-color:rgb(255, 238, 238);
 }
 
+/*Link Dec in How To's*/
+
+.howtos {
+    color:rgb(77, 77, 248);
+}
+
+.howtos:hover {
+    transform:scale(1.1);
+    text-decoration: underline;
+}
+
 /*Lesson Formatting*/
 
 .lesslist:hover {
