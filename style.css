@@ -19,7 +19,7 @@ a {
     color: black;
 }
 
-/*Navigation Bar */
+/*NAVIGATION BAR */
 
 .navigation {
     background-color:#F0A04B;
@@ -44,7 +44,7 @@ a {
     background-color:white;
 }
 
-/*The Learn Buttons | Home Page*/
+/*THE LEARN BUTTONS | HOME PAGE*/
 
 .learnbutton {
     background-color: #FADA7A;
@@ -65,18 +65,25 @@ a {
     background-color:rgb(255, 238, 238);
 }
 
-/*Link Dec in How To's*/
+
+
+/*LINK DECORATION FOR HOW TO'S | HOME PAGE*/
+
+.learnbuttont {
+    background:#FADA7A;
+}
 
 .howtos {
+    padding-left: 20px;
     color:rgb(77, 77, 248);
 }
 
 .howtos:hover {
-    transform:scale(1.1);
     text-decoration: underline;
+    cursor:pointer;
 }
 
-/*Lesson Formatting*/
+/*LESSON FORMATTING*/
 
 .lesslist:hover {
     color: blue;
