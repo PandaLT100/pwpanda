@@ -13,7 +13,11 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 
+import { createRoot } from 'react-dom/client';
 
-let form = document.getElementById("myform");
+// Clear the existing HTML content
+document.body.innerHTML = '<div id="app"></div>';
 
-alert("Hello" + {form});
+// Render your React component instead
+const root = createRoot(document.getElementById('app'));
+root.render(<h1>Hello, world</h1>);
