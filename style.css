@@ -89,3 +89,17 @@ a {
 .lesslist:hover {
     color: blue;
 }
+
+/*FORMATTING IN CONTACT PAGE*/
+
+.nonyabus {
+    background-color: white;
+    padding: 5px;
+}
+
+.textinput {
+    border: solid black;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 6px;
+}
