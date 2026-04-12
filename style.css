@@ -56,7 +56,8 @@ a {
 .lbutton {
     background-color: white;
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 7px;
+    box-shadow: 8px 2px 0px black;
 
 }
 
