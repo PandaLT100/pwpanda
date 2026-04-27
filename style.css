@@ -26,6 +26,7 @@ a {
     display:flex;
     flex-direction: row;
     justify-content: left;
+    max-width: 100%;
 }
 
 .nav {
@@ -104,3 +105,15 @@ a {
     padding-left: 6px;
 }
 
+pre {
+  background-color: #1e1e1e;
+  border: 1px solid #ddd;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  color:rgb(120, 226, 255);
+}
